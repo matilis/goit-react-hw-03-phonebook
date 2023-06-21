@@ -1,0 +1,15 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filter__input {
+  padding: 7px;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+.filter__input:hover {
+  transform: scale(1.1);
+}
